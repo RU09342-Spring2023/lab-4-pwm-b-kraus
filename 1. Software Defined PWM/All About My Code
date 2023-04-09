@@ -1,0 +1,6 @@
+In the beginning, I start by calling all the Setups.
+In the LED setup, I made the LEDs a output and cleared the registered.
+In the Button setup, I set the buttons as input, set up the pull-up register, and got the interrupt set up
+In the timer setups, I setup the interrupt and set the lowest level and the period
+In the port vectors, I set it up if the the duty cycle goes over a 999 then it resets, else it adds 100 to the duty cycle every time the button is pressed
+The last two interrupts invlove a switch statement will set the pin back to zero if overflow happen, if the CCR2 is not used, setting CCR1 to 0, and if there is no interrupt
