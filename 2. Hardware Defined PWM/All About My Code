@@ -1,0 +1,11 @@
+In the beginning of my code, I call two variables count and color and set them to zero.  
+In the main loop I just set stop watchdog timer and set up the voids.
+In Led setup, I took 6.0, 6.1, and 6.2 pins and made them outputs and conformed the registers.
+In the Timer setup, I enabled the overflow, set the pwm period, reset the ccr1, set the ccr1 duty cycle and set up the clock
+In the timer interrupt, the value count is increased twiced, then there is an if statement that filters throught the colors
+If color is 0 it adds green
+if the color is 1 it  stops red making green
+if the color is 2 then adds blue to make cyan
+if the color is 3 stops green making blue
+if the color is 4 adds red to make purple
+if the color os 5 it removes blue to make red
